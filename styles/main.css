@@ -1,0 +1,118 @@
+html{
+    background-color:#fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    padding: 0;
+    margin: 0;
+    display: grid;
+}
+
+section {
+    height: auto;
+    padding: 3em;            
+}
+main{
+    padding: 3em;
+    height: 500px;
+    background-color: #7BE3C9;
+    color: #fff;
+    text-align: center;
+}
+h1{
+    font-size: 5em;
+}
+h2{
+    font-size: 2em;
+}
+p {
+    font-size: 1.5em;
+    color: #fff;
+    text-align: justify;
+}
+div{
+    padding-bottom: 2em;
+}
+
+.About {
+    background-color: #00BAF2;
+    text-align: center;
+}
+.Skills {
+    background-color: #439350;
+    text-align: center;
+}
+.Portafolio {
+    background-color: #EB5E9B;
+    text-align: center;
+}
+.Clientes {
+    background-color: #80B3FF;
+    text-align: center;
+}
+.Contacto {
+    background-color: #FFF066;
+    text-align: center;
+}
+
+.div1{
+   display: inline-block;    
+   width: 40%; 
+   text-align: left;
+   padding-right: 2em;
+}
+.div2{
+    display: inline-block;
+    width: 40%;
+    text-align: left;            
+}
+
+progress{
+    width: 100%;
+    height: 40px;
+}
+
+form{
+    width: 100%;
+}
+
+input{
+    width: 400px;
+    height: 50px;
+}
+textarea{
+    width: 800px;
+}
+button{
+    background-color: #5D3EF0;
+    border: none;
+    color: #fff;
+    width: 200px;
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    background-color: #444;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+
+  nav li {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+    line-height: 40px;
+    width: 10%;
+    height: 40px;
+    border-bottom: 1px solid #888;
+    display: inline-block;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    transition: .3s background-color;
+  }
