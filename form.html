@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html{
+            background-color:#183832;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        div{
+            padding-bottom: 1em;
+        }
+        label{
+            font-weight: 700;
+            color: #595369;
+        }
+        h1{
+            padding-top: 1em;
+            color: #BF133B;
+        }
+        h2{
+            color: #bd7c0d;
+        }
+        h3{
+            color: #1c3359;
+            text-decoration: underline;
+        }
+        .formulario{
+            padding-right: 2em;
+            padding-left: 2em;
+            width: 20%;
+            max-width: 100%;
+            background-color: #C9B94F ;
+            border-radius: 15px;
+        }
+        header{
+            background-color: #D4533F;
+        }
+    </style>
+</head>
+<body>
+    <section> 
+        <div class="formulario">
+            <h1>Formulario</h1>
+            <form autocomplete="off"> 
+                <label for="txtNombre">Nombre :</label>                       
+                <div>
+                    <input type="text" id="txtNombre">      
+                </div>
+                <label for="txtApellido">Apellido :</label>
+                <div>         
+                    <input type="text" id="txtApellido">               
+                </div>
+                <label for="txtEdad">Edad :</label>
+                <div>                
+                    <input type="number" max="80" min="18" id="txtEdad">               
+                </div>
+                <label for="slcSexo">Sexo :</label>
+                <div>                
+                    <select name="" id="slcSexo">
+                        <option value="F">Femenino</option>
+                        <option value="M">Masculino</option>
+    
+                    </select>                          
+                </div>
+                <label for="txtDNI">DNI :</label>
+                <div>                
+                    <input type="text" maxlength="8" id="txtDNI">               
+                </div>
+                <label for="txtEmail">Email :</label>
+                <div>                
+                    <input type="email" id="txtEmail">               
+                </div>
+                <div>
+                    <button type="button">Registrar</button>
+                </div>
+            </form>            
+        </div>        
+    </section>
+    
+    
+</body>
+</html> 
