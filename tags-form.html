@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html{
+            background-color:#5cccc1;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        div{
+            padding-bottom: 1em;
+        }
+        label{
+            font-weight: 700;
+            color: #595369;
+        }
+        h2{
+            color: #bd7c0d;
+        }
+        h3{
+            color: #1c3359;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Etiquetas</h1>
+    <section>
+        <h2>Form Tags</h2>
+        <form>
+            <div>
+                <h3>Etiqueta Input (text)</h3>
+                <p><b>Definicion:</b> La etiqueta input tipo text , es una caja de texto.</p>
+                <label for="txtNombres">Nombres</label>
+                <input type="text" id="txtNombres">               
+            </div>
+            <div>
+                <h3>Etiqueta Select</h3>
+                <p><b>Definicion:</b> La etiqueta select es un selector de opciones , permite escoger entre varias opciones.</p>
+                <label for="slcDistrito">Distrito</label>
+                <select name="" id="slcDistrito">
+                    <option value="1">Lima</option>
+                    <option value="2">Miraflores</option>
+                    <option value="3">Surco</option>
+                    <option value="4">Ate</option>
+                </select>                
+            </div>
+            <div>
+                <h3>Etiqueta Input (file)</h3>
+                <p><b>Definicion:</b> Esta etiqueta se utiliza para subir archivos</p>
+                <label for="upfile">Subir archivo</label>
+                <input type="file" id="upfile" name="updfile" hidden>                                
+            </div>
+            <div>
+                <h3>Etiqueta Input (radio)</h3>
+                <p><b>Definicion:</b> Los radio buttons, sirven para marcar una opcion</p>
+                <input type="radio" id="r1"><label for="r1">Opcion 1</label>
+                <input type="radio" id="r1"><label for="r1">Opcion 2</label>
+            </div>
+            <div>
+                <h3>Etiqueta Input (checkbox)</h3>
+                <p><b>Definicion:</b> Los checkbox buttons, sirven para marcar o desmarcar una opcion</p>
+                <input type="checkbox" id="c1"><label for="c1">Opcion 1</label>
+                <input type="checkbox" id="c2"><label for="c2">Opcion 2</label>
+            </div>
+            <div>
+                <h3>Etiqueta Datalist</h3>
+                <p><b>Definicion:</b> Esta etiqueta representa un conjunto de opciones</p>
+                <label for="dtSedes">Sedes</label>
+                <input list="listasedes" name="sedes" id="dtSedes">
+                <datalist id="listasedes">
+                    <option value="Lima Centro">
+                    <option value="Chorrillos">
+                    <option value="Lima Norte">
+                    <option value="Provincia">
+                    <option value="Principal">
+                  </datalist>
+            </div>
+            <div>
+                <h3>Etiqueta Progress</h3>
+                <label for="datos">Barra de Progreso:</label>
+                <progress id="datos" max="100" value="50"> 50% </progress>
+            </div>
+            <div>
+                <h3>Etiqueta TextArea</h3>
+                <p><b>Definicion:</b> Esta etiqueta es una caja de texto</p>
+                <label for="txtarea1">Comentarios:</label>
+                <div>
+                    <textarea name="" id="txtarea1" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+            <div>
+                <h3>Etiqueta button</h3>
+                <p><b>Definicion:</b> Este tag sirve para mostrar un boton</p>
+                <button type="button">Registrar</button>
+            </div>
+        </form>
+        
+    </section>
+    
+    
+</body>
+</html> 
